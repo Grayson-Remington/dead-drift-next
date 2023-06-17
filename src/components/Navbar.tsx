@@ -55,11 +55,7 @@ export default function Navbar() {
           aria-controls="mobile-menu"
           aria-expanded="false"
         >
-          <Hamburger
-            className="md:hidden"
-            toggled={isOpen}
-            toggle={setIsOpen}
-          />
+          <Hamburger toggled={isOpen} toggle={setIsOpen} />
         </button>
       </div>
       <Transition
