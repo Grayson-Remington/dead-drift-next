@@ -15,7 +15,7 @@ export default function Navbar() {
             Home
           </Link>
           <Link
-            href="/Team"
+            href="/team"
             className="flex h-full items-center p-2 text-center font-medium text-inherit active:bg-white"
           >
             The Team
