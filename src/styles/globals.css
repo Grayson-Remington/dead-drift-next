@@ -1,3 +1,43 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  /* outline: 1px solid limegreen !important; */
+}
+html {
+  height: 100%;
+}
+#root {
+  height: 100%;
+}
+body {
+  margin: 0;
+  height: 100%;
+}
+
+.nav-button:hover {
+  background-color: white;
+  overflow: hidden;
+  font-size: 20px;
+  transition-duration: 0.5s;
+}
+
+.text-shadow {
+  text-shadow: 1px 1px 2px black;
+}
+
+.video-container {
+  position: relative;
+}
+
+#play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: white;
+  font-size: 5rem;
+}
