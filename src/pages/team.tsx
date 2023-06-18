@@ -1,7 +1,7 @@
 export default function Team() {
   return (
     <div className="flex w-full flex-col gap-4 bg-yellow-400 px-4 pb-8 pt-[78px]">
-      <div className="flex w-full flex-col rounded-lg bg-[#e3d2bc] shadow-xl md:grid md:grid-cols-2 md:grid-rows-1 md:p-10">
+      <div className="flex w-full flex-col items-center justify-center rounded-lg bg-[#e3d2bc] p-4 shadow-xl md:grid md:grid-cols-2 md:grid-rows-1 md:p-10">
         <div className="row-span-1">
           <div className="m-8 grid place-items-center">
             <img
@@ -46,6 +46,12 @@ export default function Team() {
             </ul>
           </div>
         </div>
+        <iframe
+          title="vimeo-player"
+          src="https://player.vimeo.com/video/816745952?h=272652d97e"
+          className="relative col-span-2 aspect-video h-full w-[90%] max-w-4xl self-center justify-self-center rounded-xl"
+          allowFullScreen
+        ></iframe>
       </div>
       <div className="flex w-full flex-col-reverse rounded-lg bg-[#e3d2bc] md:grid md:grid-cols-2 md:grid-rows-1 md:p-10">
         <div className="relative flex flex-col justify-center p-6">
