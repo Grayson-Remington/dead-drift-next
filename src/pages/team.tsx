@@ -201,12 +201,12 @@ export default function Team() {
           <h1 className="text-shadow relative p-4 text-6xl">Doug</h1>
           <h1 className="text-shadow relative pb-1 text-2xl">(The Oarsman)</h1>
           <p className="relative p-4">
-            With staying on the sticks instead of shooting out line, Doug is the
-            ultimate double threat. Whether its landing chunky Cutthroats in
-            Montana&apos;s Scapegoat Wilderness, or skillfully navigating his
-            drift boat through sections like the &quot;Needle&apos;s Eye&quot;
-            on the mighty Colorado, Doug feels right at home on, or in the
-            water.
+            Just as content with staying on the sticks as he is with shooting
+            out line, Doug is the ultimate double threat. Whether its landing
+            chunky Cutthroats in Montana&apos;s Scapegoat Wilderness, or
+            skillfully navigating his drift boat through sections like the
+            &quot;Needle&apos;s Eye&quot; on the mighty Colorado, Doug feels
+            right at home on, or in the water.
           </p>
           <ul>
             <li>

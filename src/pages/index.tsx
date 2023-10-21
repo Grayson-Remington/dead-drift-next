@@ -12,6 +12,7 @@ const Home: NextPage = () => {
       </Head>
       <main>
         <div className="background-image flex h-full lg:h-[100vh]">
+          
           <div className="flex h-full flex-col p-6 pt-[72px] lg:grid lg:grid-cols-2">
             <div className="relative h-full items-center justify-center p-4 pt-8 text-center text-white">
               <h1>

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Transition } from "@headlessui/react";
 import { Squeeze as Hamburger } from "hamburger-react";
 import Link from "next/link";
+import Image from "next/image";
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
@@ -22,16 +23,20 @@ export default function Navbar() {
           </Link>
         </div>
 
-        <div className="flex gap-2 py-4 md:p-4">
-          <img
+        <div className="relative flex gap-2 py-4 md:p-4">
+          <Image
             className="aspect-auto h-8"
-            src="./assets/dead-drift-river.png"
+            src="/assets/dead-drift-river.png"
             alt=""
+            width={57}
+            height={32}
           />
-          <img
+          <Image
             className="aspect ratio-auto h-10"
-            src="./assets/dead-drift-logo.png"
+            src="/assets/dead-drift-logo.png"
             alt=""
+            width={210}
+            height={40}
           />
         </div>
         <div className="m-0 hidden h-full w-auto list-none items-stretch gap-4 p-0 md:flex">
