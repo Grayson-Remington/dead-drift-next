@@ -10,13 +10,13 @@ export default function Navbar() {
         <div className="hidden h-full w-auto list-none items-stretch  justify-center gap-4 md:flex">
           <Link
             href="/"
-            className="flex h-full items-center overflow-hidden p-2 font-medium text-inherit active:bg-white"
+            className="flex h-full items-center overflow-hidden p-2 font-medium text-inherit hover:scale-105 active:bg-white"
           >
             Home
           </Link>
           <Link
             href="/team"
-            className="flex h-full items-center p-2 text-center font-medium text-inherit active:bg-white"
+            className="flex h-full items-center p-2 text-center font-medium text-inherit hover:scale-105 active:bg-white"
           >
             The Team
           </Link>
@@ -37,13 +37,13 @@ export default function Navbar() {
         <div className="m-0 hidden h-full w-auto list-none items-stretch gap-4 p-0 md:flex">
           <Link
             href="/upcomingevents"
-            className="flex h-full items-center p-2 font-medium text-inherit active:bg-white"
+            className="flex h-full items-center p-2 font-medium text-inherit hover:scale-105 active:bg-white"
           >
             Upcoming Events
           </Link>
           <Link
             href="/videos"
-            className="flex h-full items-center p-2 text-center font-medium text-inherit active:bg-white"
+            className="flex h-full items-center p-2 text-center font-medium text-inherit hover:scale-105 active:bg-white"
           >
             Videos
           </Link>
@@ -70,33 +70,33 @@ export default function Navbar() {
         {(ref) => (
           <div
             ref={ref}
-            className="flex w-full list-none flex-col bg-black md:hidden"
+            className="flex w-full list-none flex-col border-t border-white bg-yellow-500 md:hidden"
             id="mobile-menu"
           >
             <Link
               href="/"
-              className="m-2 block text-center text-2xl font-medium text-white"
+              className=" m-2 block text-center text-2xl font-medium text-white hover:scale-105"
               onClick={() => setIsOpen(!isOpen)}
             >
               Home
             </Link>
             <Link
               href="/team"
-              className="m-2 block text-center text-2xl font-medium text-white"
+              className="m-2 block text-center text-2xl font-medium text-white hover:scale-105"
               onClick={() => setIsOpen(!isOpen)}
             >
               The Team
             </Link>
             <Link
               href="/upcomingevents"
-              className="m-2 block text-center text-2xl font-medium text-white"
+              className="m-2 block text-center text-2xl font-medium text-white hover:scale-105"
               onClick={() => setIsOpen(!isOpen)}
             >
               Upcoming Events
             </Link>
             <Link
               href="/videos"
-              className="m-2 block text-center text-2xl font-medium text-white"
+              className="m-2 block text-center text-2xl font-medium text-white hover:scale-105"
               onClick={() => setIsOpen(!isOpen)}
             >
               Videos

@@ -185,6 +185,48 @@ export default function Team() {
           <div className="relative -top-8 grid w-full place-items-center italic"></div>
         </div>
       </div>
+      <div className="flex w-full flex-col rounded-lg bg-[#e3d2bc] md:grid md:grid-cols-2 md:grid-rows-1 md:p-10">
+        <div className="row-span-1">
+          <div className="m-8 grid place-items-center">
+            <img
+              className="max-h-[400px] rounded-full shadow-lg"
+              src="assets/doug-fish.jpg"
+              alt=""
+            />
+          </div>
+          <div className="relative -top-8 grid w-full place-items-center italic"></div>
+        </div>
+
+        <div className="relative flex flex-col justify-center p-6">
+          <h1 className="text-shadow relative p-4 text-6xl">Doug</h1>
+          <h1 className="text-shadow relative pb-1 text-2xl">(The Oarsman)</h1>
+          <p className="relative p-4">
+            With staying on the sticks instead of shooting out line, Doug is the
+            ultimate double threat. Whether its landing chunky Cutthroats in
+            Montana&apos;s Scapegoat Wilderness, or skillfully navigating his
+            drift boat through sections like the &quot;Needle&apos;s Eye&quot;
+            on the mighty Colorado, Doug feels right at home on, or in the
+            water.
+          </p>
+          <ul>
+            <li>
+              <strong>Nymph, Dry, or Streamer:</strong> “Sure...Whatever”
+            </li>
+            <li>
+              <strong>Water:</strong> “Give me some white sections please!”
+            </li>
+            <li>
+              <strong>Fuel:</strong> “Anything organic”
+            </li>
+            <li>
+              <strong>Hydration:</strong> “A stream chilled microbrew”
+            </li>
+            <li>
+              <strong>Weakness:</strong> “S&V Pringles”
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   );
 }
