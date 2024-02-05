@@ -227,6 +227,51 @@ export default function Team() {
           </ul>
         </div>
       </div>
+      <div className="flex w-full flex-col-reverse rounded-lg bg-[#e3d2bc] md:grid md:grid-cols-2 md:grid-rows-1 md:p-10">
+        <div className="relative flex flex-col justify-center p-6">
+          <h1 className="text-shadow relative p-4 text-6xl">C.J.</h1>
+          <h1 className="text-shadow relative pb-1 text-2xl">(10x.5)</h1>
+          <p className="relative p-4">
+            You might be wondering how&apos;d he get the nickname “10x.5”? Well,
+            just fish a day with this guy and you will quickly see that he
+            catches 10 times (10x) the fish you catch, in half (.5) the distance
+            you cover. I personally have seen C.J. pull fish from a hole that
+            was just walked/busted through. And watch out…..he&apos;s deadly
+            with the dry, but often ties an insurance trailing nymph. And if you
+            ask him about that trailer, you&apos;ll hear….. “I don&apos;t know,
+            some little green caddis thing”.
+          </p>
+          <ul>
+            <li>
+              <strong>Nymph, Dry, or Streamer:</strong> “You know the answer to
+              that……dry of course”
+            </li>
+            <li>
+              <strong>Water:</strong> “Rock Gardens”
+            </li>
+            <li>
+              <strong>Fuel:</strong> “Green Chili Double Cheddar Cheeseburger”
+            </li>
+            <li>
+              <strong>Hydration:</strong> “Mountain Standard IPA”
+            </li>
+            <li>
+              <strong>Weakness:</strong> “When the mercury drops below 70, or
+              wind is above 5 mph”
+            </li>
+          </ul>
+        </div>
+        <div className="">
+          <div className="m-8 grid place-items-center">
+            <img
+              className="max-h-[400px] rounded-full shadow-lg"
+              src="assets/cj-fish.jpg"
+              alt=""
+            />
+          </div>
+          <div className="relative -top-8 grid w-full place-items-center italic"></div>
+        </div>
+      </div>
     </div>
   );
 }

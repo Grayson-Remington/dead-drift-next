@@ -1,6 +1,14 @@
 export default function Videos() {
   return (
     <div className="flex w-full flex-col items-center justify-center pb-2 pt-[72px]">
+      <h1 className="m-8 text-2xl">That&apos;s one BIG pancake</h1>
+      <iframe
+        className="relative aspect-video h-full w-[90%] max-w-4xl rounded-xl"
+        title="vimeo-player"
+        src="https://player.vimeo.com/video/906902491?h=56768e7cf9"
+        allowFullScreen
+      ></iframe>
+
       <h1 className="m-8 text-2xl">Wyoming 2022</h1>
       <iframe
         className="relative aspect-video h-full w-[90%] max-w-4xl rounded-xl"
